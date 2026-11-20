@@ -23,7 +23,7 @@ df_redes_sociales.to_csv("redessociales.csv",index=False)
 # donde x es Nombre en el eje horizontal
 # donde Y es candidad en el eje vertical
 plt.plot(df_redes_sociales["nombre"],df_redes_sociales["cantidad"])
-plt.title("grafica redes sociales 0070")
+plt.title("grafica redes sociales 0091")
 plt.xlabel("Nombe de las redes")
 plt.ylabel("cantidad de usuarios")
 plt.show()
@@ -33,7 +33,7 @@ plt.show()
 # Grafica de barras
 plt.bar (df_redes_sociales["nombre"],df_redes_sociales["cantidad"])
 # Añadir título y etiquetas a los ejes
-plt.title("Redes sociales 0070")
+plt.title("Redes sociales 0091")
 plt.xlabel("las redes")
 plt.ylabel("cantidad usuarios")
 # Mostrar la gráfica
